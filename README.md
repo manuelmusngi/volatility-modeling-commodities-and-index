@@ -23,7 +23,7 @@ This section explicitly links each code module to the mathematical formulations 
      All assets are modeled as log‑returns:
                                    𝑟𝑡 = 𝜇 + 𝜀𝑡,  𝜀𝑡 = 𝜎𝑡𝑧𝑡,  𝑧𝑡 ∼ 𝐷(0,1)
 
-     Code mapping
+     #### Code mapping
 
           - data/loader.py
                - Loads price data and computes log‑returns.
