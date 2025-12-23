@@ -3,6 +3,19 @@ This project is a production‑grade implementation of advanced volatility model
 
 The system focuses on nonlinear dynamics, volatility clustering, asymmetry, and long‑memory effects—features that dominate real‑world financial return series but are often underrepresented in baseline models. Applications include risk forecasting, hedge ratio construction, and cross‑asset volatility analysis for markets such as WTI crude oil, Henry Hub natural gas, and the S&P 500 Index.
 
+#### Key Capabilities
+📈 Conditional Volatility Forecasting
+Implements rolling out‑of‑sample forecasts using EGARCH and FIGARCH models to capture asymmetric responses to shocks and persistent volatility dynamics beyond standard GARCH assumptions.
+
+📊 Model Evaluation via Loss Functions
+Forecast accuracy is evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE), directly mirroring the loss‑function framework used in the reference paper to identify minimum‑loss models.
+
+🔍 Cross‑Asset Volatility Structure Analysis
+Applies identical model specifications across commodities and equities, enabling direct comparison of volatility persistence, asymmetry, and memory across asset classes.
+
+🛡️ Risk Management & Hedging Applications
+Forecasted conditional variances can be used to derive optimal hedge ratios, supporting practical decision‑making for traders, portfolio managers, and risk analysts.
+
 #### Project architecture
 
 volatility_model_app/\
