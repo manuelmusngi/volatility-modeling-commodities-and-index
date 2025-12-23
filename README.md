@@ -3,7 +3,18 @@ This project implements and extends the volatility modeling framework presented 
 
 The application focuses on capturing the nonlinear dynamics, volatility clustering, asymmetry, and long-memory behavior commonly observed in financial return series. It applies these models to markets such as WTI crude oil, Henry Hub natural gas, and the S&P 500 Index, enabling both cross-asset comparison and practical risk analysis.
 
+#### Core Functionality
+📈 Conditional Volatility Forecasting
+The system generates rolling, out-of-sample volatility forecasts using GARCH-family models such as EGARCH and FIGARCH. These models are specifically chosen for their ability to capture asymmetric responses to shocks and persistent volatility dynamics that standard GARCH models may fail to represent.
 
+📊 Model Performance Evaluation
+Forecast accuracy is evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE), consistent with the loss-function-based assessment framework employed in the original research. This allows objective comparison of model performance across different assets and time periods.
+
+🔍 Cross-Asset Volatility Comparison
+By applying identical model specifications to both energy commodities and an equity index, the project facilitates comparative analysis of volatility structures, persistence, and sensitivity to market shocks—mirroring the multi-market perspective of the source paper.
+
+🛡️ Risk Management and Hedging Applications
+Forecasted conditional volatilities can be used to derive optimal hedge ratios, supporting informed decision-making for traders, portfolio managers, policymakers, and risk analysts. This reflects the paper’s emphasis on minimizing loss and managing risk in volatile energy markets.
 
 #### Project architecture
 
