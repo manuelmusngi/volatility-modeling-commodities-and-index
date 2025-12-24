@@ -9,12 +9,15 @@ The system focuses on nonlinear dynamics, volatility clustering, asymmetry, and 
 Implements rolling out‑of‑sample forecasts using EGARCH and FIGARCH models to capture asymmetric responses to shocks and persistent volatility dynamics beyond standard GARCH assumptions.
 
 📊 Model Evaluation via Loss Functions
+
 Forecast accuracy is evaluated using Mean Squared Error (MSE) and Mean Absolute Error (MAE), directly mirroring the loss‑function framework used in the reference paper to identify minimum‑loss models.
 
 🔍 Cross‑Asset Volatility Structure Analysis
+
 Applies identical model specifications across commodities and equities, enabling direct comparison of volatility persistence, asymmetry, and memory across asset classes.
 
 🛡️ Risk Management & Hedging Applications
+
 Forecasted conditional variances can be used to derive optimal hedge ratios, supporting practical decision‑making for traders, portfolio managers, and risk analysts.
 
 #### Methodology: Mapping Code to Econometric Models
