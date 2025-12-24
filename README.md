@@ -35,10 +35,10 @@ This section explicitly links each code module to the mathematical formulations 
 
 #### Code mapping
 - models/model_factory.py
-          - Instantiates baseline GARCH specifications.
+  - Instantiates baseline GARCH specifications.
 
 - models/forecasting.py
-          - Fits model and generates conditional variance forecasts.
+  - Fits model and generates conditional variance forecasts.
 
 #### Project architecture
 
