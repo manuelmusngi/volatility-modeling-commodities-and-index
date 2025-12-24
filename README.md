@@ -5,6 +5,7 @@ The system focuses on nonlinear dynamics, volatility clustering, asymmetry, and 
 
 #### Key Capabilities
 📈 Conditional Volatility Forecasting
+
 Implements rolling out‑of‑sample forecasts using EGARCH and FIGARCH models to capture asymmetric responses to shocks and persistent volatility dynamics beyond standard GARCH assumptions.
 
 📊 Model Evaluation via Loss Functions
