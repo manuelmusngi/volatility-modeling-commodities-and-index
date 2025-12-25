@@ -1,7 +1,6 @@
 ASSETS = {
     'WTI Crude Oil': 'CL=F',
-    'Natural Gas': 'NG=F',
-    'S&P 500': '^SPX'
+    'Natural Gas': 'NG=F'
 }
 
 START_DATE = '2010-01-01'
